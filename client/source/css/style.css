@@ -1,3 +1,52 @@
+input {
+    animation: blinker 5s linear infinite;
+    background-color: inherit;
+}
+
 h1 {
     color: deeppink;
+}
+
+.btn {
+    margin-left: 5px;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+@keyframes blinker {
+    0% {
+        background-color: red;
+    }
+
+    14.2% {
+        background-color: orange;
+    }
+
+    28.4% {
+        background-color: yellow;
+    }
+
+    42.6% {
+        background-color: green;
+    }
+
+    56.8% {
+
+        background-color: blue;
+    }
+
+    71% {
+        background-color: indigo;
+    }
+
+    85.2% {
+        background-color: violet;
+    }
+
+    100% {
+        background-color: red;
+    }
 }
